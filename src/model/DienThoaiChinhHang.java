@@ -11,6 +11,8 @@ public class DienThoaiChinhHang extends DienThoai {
         this.phamViBaoHanh = phamViBaoHanh;
     }
 
+
+
     @Override
     public String toCSV() {
         return getId() + "," + getTenDienThoai() + "," + getGiaBan() + "," + getSoLuong() + "," +
